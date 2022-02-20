@@ -50,20 +50,8 @@ $rpto = $update->message->reply_to_message->forward_from->id;
 //======================================================================
 $menu = json_encode(['keyboard'=>[
 [['text'=>"⚡استخراج متن از عکس⚡"]],
-[['text'=>"🎛دیگر ربات های ما🎛"],['text'=>"👤پشتیبانی👤"]],
-],'resize_keyboard'=>true,]);
-//======================================================================            
-$lng = json_encode(['inline_keyboard'=>[
-[['text'=>'Persian 🇮🇷','callback_data'=>'Persian'],['text'=>'English 🇺🇸','callback_data'=>'English'],['text'=>'Arabic 🇸🇦','callback_data'=>'Arabic']],
-[['text'=>'Bulgarian 🇧🇬','callback_data'=>'Bulgarian'],['text'=>'ChineseSimplified 🇨🇳','callback_data'=>'ChineseSimplified'],['text'=>'ChineseTraditional 🇨🇳','callback_data'=>'ChineseTraditional']],
-[['text'=>'Croatian 🇭🇷','callback_data'=>'Croatian'],['text'=>'Czech 🇨🇿','callback_data'=>'Czech'],['text'=>'Danish 🇩🇰','callback_data'=>'Danish']],
-[['text'=>'Dutch 🇳🇱','callback_data'=>'Dutch'],['text'=>'Finnish 🇫🇮','callback_data'=>'Finnish'],['text'=>'French 🇨🇵','callback_data'=>'French']],
-[['text'=>'German 🇩🇪','callback_data'=>'German'],['text'=>'Greek 🇬🇷','callback_data'=>'Greek'],['text'=>'Hungarian 🇭🇺','callback_data'=>'Hungarian']],
-[['text'=>'Italian 🇮🇹','callback_data'=>'Italian'],['text'=>'Japanese 🇯🇵','callback_data'=>'Japanese'],['text'=>'Korean 🇰🇷','callback_data'=>'Korean']],
-[['text'=>'Slovenian 🇸🇮','callback_data'=>'Slovenian'],['text'=>'Spanish 🇪🇦','callback_data'=>'Spanish'],['text'=>'Korean 🇰🇷','callback_data'=>'Korean']],
-[['text'=>'Polish 🇵🇱⁩','callback_data'=>'Polish'],['text'=>'Portuguese 🇧🇷🇵🇹','callback_data'=>'Portuguese'],['text'=>'Russian 🇷🇺','callback_data'=>'Russian']],
-[['text'=>'Swedish 🇸🇪','callback_data'=>'Swedish'],['text'=>'Turkish 🇹🇷','callback_data'=>'Turkish']]
-],'resize_keyboard'=>true,]);
+[['text'=>"🎛دیگر ربات های ما🎛"]],
+], 'resize_keyboard' => true]);
 //======================================================================            
 $tik = json_encode(['inline_keyboard'=>[
 [['text'=>'✅','callback_data'=>'llBots']]
