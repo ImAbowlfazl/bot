@@ -58,6 +58,9 @@ if ( $text == '/start' )
 	$message = "Hi There, Welcome...";
 	echo sendMessageWithKeyboard($chat_id,$message,$keyboard);
 }
+if(!is_dir("member")){
+mkdir("member");
+}
 //اگر دکمه شماره 1 فشرده شود
 if ( $text == 'Button 1' ) 
 {
