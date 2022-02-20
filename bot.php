@@ -68,6 +68,7 @@ if ( $text == 'Button 1' )
 if ( $text == 'Button 2' ) 
 {
 	$message = "Result From Button 2";
+Mkdir("data");
 	sendMessage($chat_id,$message);
 }
 
